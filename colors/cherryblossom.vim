@@ -199,7 +199,7 @@ function! s:changebg(group, color)
     execute "highlight" a:group "guibg=" a:color.gui "ctermbg=" a:color.cterm
 endfunction
 
-if g:switch_statusline_bg_by_mode
+if g:switch_statusline_bg_in_insert
     "" Change Color when entering Insert Mode
     autocmd InsertEnter * call s:changebg("StatusLine", s:pink_bg)
     "" Revert Color to default when leaving Insert Mode
