@@ -1,7 +1,7 @@
 " Vim Colorscheme
 " Name:     cherryblossom.vim
 " Author:   Luo Boming
-" Version:  0.2
+" Version:  0.3
 " License:  The MIT Licence
 
 "{{{ Pre-setting
@@ -200,10 +200,10 @@ if has("gui_running")
     call s:hi("SpellRare",      {"gui": s:attr_un, "sp": s:blue_bg})
     call s:hi("SpellLocal",     {"gui": s:attr_un, "sp": s:green_bg})
 else
-    call s:hi("SpellBad",       {"cterm": s:attr_un, "bg": s:pink_bg})
-    call s:hi("SpellCap",       {"cterm": s:attr_un, "bg": s:yellow_bg})
-    call s:hi("SpellRare",      {"cterm": s:attr_un, "bg": s:blue_bg})
-    call s:hi("SpellLocal",     {"cterm": s:attr_un, "bg": s:green_bg})
+    call s:hi("SpellBad",       {"cterm": s:attr_un, "fg": s:red_fg})
+    call s:hi("SpellCap",       {"cterm": s:attr_un, "fg": s:yellow_fg})
+    call s:hi("SpellRare",      {"cterm": s:attr_un, "fg": s:blue_fg})
+    call s:hi("SpellLocal",     {"cterm": s:attr_un, "fg": s:green_fg})
 endif
 call s:hi("Pmenu",          {"bg": s:gray_bg})
 call s:hi("PmenuSel",       {"bg": s:pink_bg})
