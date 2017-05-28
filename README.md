@@ -18,3 +18,11 @@ If you enable this, StatusLine is colored with green in normal, and with pink in
 ```vim
 let g:switch_statusline_bg_in_insert = 1
 ```
+
+### Use Undercurl in Spell Highlighting (GUI only)
+In GUI Vim, you can use the undercurl highlight feature.
+This applies to only Spell syntax.
+
+```vim
+let g:spell_undercurl = 1
+```
