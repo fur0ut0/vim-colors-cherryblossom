@@ -174,7 +174,7 @@ call s:hi("Todo",            {"bg": s:yellow_bg, "gui": "bold", "cterm": "bold"}
 
 "}}}
 "{{{ Semi-Common Highlighting
-call s:hi("SpecialKey",     {"fg": s:cyan_bg, "gui": "bold", "cterm": "bold", "term": "bold"})
+call s:hi("SpecialKey",     {"fg": s:purple, "gui": "bold", "cterm": "bold", "term": "bold"})
 call s:hi("NonText",        {"fg": s:cyan_bg, "gui": "bold", "cterm": "bold", "term": "bold"})
 call s:hi("Directory",      {"fg": s:blue_fg, "gui": "bold", "cterm": "bold", "term": "bold"})
 call s:hi("ErrorMsg",       {"fg": s:red_fg, "gui": "bold", "cterm": "bold", "term": "bold"})
