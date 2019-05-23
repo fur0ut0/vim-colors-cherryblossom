@@ -39,7 +39,7 @@ let s:purple            = { "gui": "#B586E7", "cterm": "141" }
 let s:light_cyan        = { "gui": "#D7FFFF", "cterm": "195" }
 let s:dark_cyan         = { "gui": "#00AF87", "cterm": "36"  }
 let s:ultramarine       = { "gui": "#229EC0", "cterm": "38"  }
-let s:skyblue           = { "gui": "#34D0F1", "cterm": "45"  }
+let s:skyblue           = { "gui": "#9BE7F8", "cterm": "195"  }
 
 let s:white_pink            = { "gui": "#FEF7FE", "cterm": "231" }
 let s:white_pink_deep       = { "gui": "#FEF0FE", "cterm": "255" }
